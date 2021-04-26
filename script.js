@@ -20,7 +20,8 @@ for(item of operators){
 		}
 		else if(this.id=="delete"){
 			var display1=getScreen1().toString();
-			if(display1){//if display1 has a value
+			if(display1){
+				//if display1 has a value
 				display1= display1.slice(0, -1);
 				printScreen1(display1);
 			}
